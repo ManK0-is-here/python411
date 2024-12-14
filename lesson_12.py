@@ -61,3 +61,8 @@ def say_bro(say: int, bro: str)-> None:
 
 # messange: None = say_bro(30, "Bro")
 say_bro(say=52, bro= "Bro")
+
+
+def is_pauwer(stan: int)-> bool:
+    return stan >= 100
+print(is_pauwer(120))
