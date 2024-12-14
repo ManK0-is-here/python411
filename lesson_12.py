@@ -63,6 +63,12 @@ def say_bro(say: int, bro: str)-> None:
 say_bro(say=52, bro= "Bro")
 
 
-def is_pauwer(stan: int)-> bool:
-    return stan >= 100
-print(is_pauwer(120))
+def is_Palindrom(pal:str)->bool:
+    pal.lower()
+    """
+    берёи строку приводим к нижнему регистру
+    выполняем сравнение строки после ссреза и до среза 
+    возвращаем булевое значение
+    """
+    return pal[::-1] == pal
+print(is_Palindrom("х10101Х"))
