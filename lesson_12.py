@@ -59,4 +59,5 @@ def say_bro(say: int, bro: str)-> None:
     print(f"Ты скажешь {bro}, всего {say} раз")
 
 
-messange: None = say_bro(30, "Bro")
+# messange: None = say_bro(30, "Bro")
+say_bro(say=52, bro= "Bro")
